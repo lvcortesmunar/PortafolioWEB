@@ -6,10 +6,10 @@ export function Contact() {
   return (
     <section id="contacto" className="scroll-mt-14 bg-ink text-ink-foreground">
       <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-28">
-        <Eyebrow className="text-ink-foreground/60">§ 05 — Contacto</Eyebrow>
+        <Eyebrow className="text-ink-foreground/60">Contacto</Eyebrow>
         <div className="mt-10 grid gap-14 md:grid-cols-12 md:gap-8">
           <div className="md:col-span-8">
-            <Eyebrow className="text-ink-foreground/60">Estoy buscandando nuevos proyectos, oportunidades y conversaciones sobre diseño, producto y tecnología.26</Eyebrow>
+            <Eyebrow className="text-ink-foreground/60">Estoy buscandando nuevos proyectos, oportunidades y conversaciones sobre diseño, producto y tecnología</Eyebrow>
             <DisplayHeading className="mt-6 font-sans text-2xl font-black uppercase leading-none tracking-[-0.02em] md:text-4xl">
   ¿Tienes un proyecto en mente? <br /> Hablemos
   <Dot color="lime" />
