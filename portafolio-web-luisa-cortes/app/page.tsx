@@ -13,10 +13,10 @@ return (
     <SiteHeader />
     <main>
       <Hero />
-      <About />
       <Marquee />
-      <Projects />
+      <About />
       <Services />
+      <Projects />
       {/* <Timeline /> */}
       <Contact />
     </main>
