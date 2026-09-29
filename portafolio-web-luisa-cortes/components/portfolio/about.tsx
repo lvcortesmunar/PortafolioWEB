@@ -7,7 +7,7 @@ export function About() {
     <section id="sobre-mi" className="mx-auto max-w-7xl scroll-mt-14 px-5 py-20 md:px-8 md:py-28">
       <div className="grid gap-14 md:grid-cols-12 md:gap-8">
         <div className="md:col-span-5">
-          <Eyebrow>§ 01 — Sobre mí</Eyebrow>
+          <Eyebrow>Un perfil de diseño, producto y ejecución.</Eyebrow>
           <DisplayHeading className="mt-4 text-[clamp(3.5rem,8vw,6.5rem)]">
             Sobre
             <br />
@@ -29,15 +29,22 @@ export function About() {
 
         <div className="md:col-span-6 md:col-start-7 md:pt-24">
           <p className="text-pretty text-xl leading-relaxed md:text-2xl">
-            Soy Ingeniera Multimedia con enfoque estratégico en Product Design, UX/UI, Diseño de Servicios y
-            Gestión de Proyectos Ágiles. Mi objetivo es transformar requerimientos complejos de negocio en
-            experiencias fluidas, escalables y orientadas al usuario final.
+            Soy Ingeniera Multimedia con interés en todo lo que ocurre entre una idea y un producto real.
+            Mi formación y experiencia me han llevado a explorar diferentes áreas: desde UX/UI
+            y diseño de productos digitales hasta marketing, gestión de proyectos y desarrollo frontend 
+            mediante herramientas Low-Code.
+
           </p>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            He liderado la evolución de plataformas digitales desde su concepto inicial hasta prototipos de alta
-            fidelidad, aplicando investigación de usuarios, arquitectura de información y marcos de trabajo
-            híbridos (Scrum/Kanban) para acelerar los tiempos de entrega e incrementar el cumplimiento de metas
-            organizacionales.
+           Esta combinación me permite mirar los proyectos desde diferentes perspectivas: 
+             <span className="font-bold underline decoration-mint decoration-2 underline-offset-4">
+  la experiencia de las personas, las necesidades del negocio y las posibilidades de la tecnología.
+</span>
+Actualmente estoy construyendo mi carrera en Product Design, buscando oportunidades donde pueda seguir 
+aprendiendo, asumir nuevos retos y aportar desde una mirada multidisciplinaria.
+Me interesa especialmente trabajar en productos digitales donde el diseño tenga un impacto real en la experiencia de las personas y en los resultados del negocio.
+
+          
           </p>
 
           <div className="mt-12 border-t border-foreground pt-4">
