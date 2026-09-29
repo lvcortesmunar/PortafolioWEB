@@ -8,19 +8,20 @@ import { Timeline } from '@/components/portfolio/timeline'
 import { Contact, SiteFooter } from '@/components/portfolio/contact'
 
 export default function Page() {
-  return (
-    <>
-      <SiteHeader />
-      <main>
-        <Hero />
-        <About />
-        <Marquee />
-        <Projects />
-        <Services />
-        <Timeline />
-        <Contact />
-      </main>
-      <SiteFooter />
-    </>
-  )
+return (
+  <>
+    <SiteHeader />
+    <main>
+      <Hero />
+      <About />
+      <Marquee />
+      <Projects />
+      <Services />
+      {/* <Timeline /> */}
+      <Contact />
+    </main>
+    <SiteFooter />
+  </>
+)
+
 }
