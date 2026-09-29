@@ -6,16 +6,13 @@ export function Services() {
   return (
     <section id="servicios" className="scroll-mt-14 bg-ink text-ink-foreground">
       <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 md:py-28">
-        <Eyebrow className="text-ink-foreground/60">§ 03 — Servicios</Eyebrow>
+        <Eyebrow className="text-ink-foreground/60">Habilidades clave</Eyebrow>
         <div className="mt-4 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <DisplayHeading className="text-[clamp(3.5rem,9vw,7.5rem)]">
-            Lo que
-            <br />
-            hago<Dot color="lime" />
+            Lo que hago<Dot color="lime" />
           </DisplayHeading>
           <p className="max-w-xs text-sm leading-relaxed text-ink-foreground/70">
-            Colaboraciones que van desde sprints enfocados de seis semanas hasta alianzas de producto
-            integradas por trimestres.
+Desde sprints intensivos de seis semanas hasta alianzas de producto que evolucionan durante varios trimestres. Diseño con agilidad, me adapto al proceso y mantengo la creatividad sin perder de vista al usuario.
           </p>
         </div>
 
