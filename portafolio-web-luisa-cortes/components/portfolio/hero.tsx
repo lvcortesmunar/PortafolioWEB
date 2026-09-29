@@ -24,9 +24,10 @@ export function Hero() {
           </DisplayHeading>
           <p className="mt-8 max-w-md text-pretty leading-relaxed text-foreground/80">
             Diseño productos digitales que conectan{' '}
-            <span className="font-bold underline decoration-mint decoration-2 underline-offset-4 underline decoration-mint decoration-2 underline-offset-4">
-              personas, negocio y tecnología
-            </span>
+            <span className="font-bold underline decoration-mint decoration-2 underline-offset-4">
+  personas, negocio y tecnología
+</span>
+
             . Combino diseño de producto, marketing, gestión de proyectos y herramientas Low-Code para
             llevar una idea desde su concepto hasta una solución digital.
           </p>
