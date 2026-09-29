@@ -130,24 +130,29 @@ export const projects: Project[] = [
 
 export const services = [
   {
-    title: 'Diseño UX / UI',
-    description: ' User Research · Arquitectura de información · Wireframes · UI Design · Design Systems · Usability Testing Superficies de producto de punta a punta, desde flujos de baja fidelidad hasta pantallas finales.',
+    title: '01 — Product Design',
+    description:
+      'Product Thinking · User Flows · Prototyping · Product Discovery · Problem Framing. Diseño productos digitales de punta a punta, conectando necesidades de usuario, objetivos de negocio y posibilidades tecnológicas.',
   },
   {
-    title: 'Estrategia de producto',
-    description: 'Definición del problema, dimensionamiento de oportunidades y roadmaps junto a equipos directivos.',
+    title: '02 — UX / UI',
+    description:
+      'User Research · Arquitectura de Información · Wireframes · UI Design · Design Systems · Usability Testing. Diseño experiencias claras, consistentes y funcionales, desde la exploración y los flujos de baja fidelidad hasta las interfaces finales.',
   },
   {
-    title: 'Product & Business',
-    description: 'Product Strategy · Marketing · Customer Experience · Métricas · Value Proposition. Traduzco necesidades en oportunidades, conectando personas, producto y negocio mediante blueprints, mapas de viaje y experiencias omnicanal.',
+    title: '03 — Product & Business',
+    description:
+      'Product Strategy · Marketing · Customer Experience · Métricas · Value Proposition. Traduzco necesidades en oportunidades, conectando personas, producto y negocio mediante blueprints, mapas de viaje y experiencias omnicanal.',
   },
   {
-    title: 'Prototipado',
-    description: 'Prototipos interactivos de alta fidelidad y soluciones Low-Code para validar rápido.',
+    title: '04 — Gestión',
+    description:
+      'Planificación · Priorización · Metodologías Ágiles · Coordinación de Proyectos · Stakeholder Management. Organizo equipos, procesos y entregables para avanzar con claridad, agilidad y foco en los objetivos.',
   },
   {
-    title: 'Gestión ágil',
-    description: 'Marcos híbridos Scrum / Kanban para acelerar entregas y cumplir metas con equipos multidisciplinarios.',
+    title: '05 — Build',
+    description:
+      'Low-Code · Frontend · Prototipos Funcionales · Implementación Digital. Llevo las ideas más allá del prototipo, explorando y construyendo soluciones funcionales para validar conceptos y acelerar el aprendizaje.',
   },
 ]
 
