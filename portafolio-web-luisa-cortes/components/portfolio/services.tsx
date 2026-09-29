@@ -1,6 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
 import { services } from '@/lib/content'
-{/*import { DisplayHeading, Dot, Eyebrow } from './primitives'*/}
+import { DisplayHeading, Dot, Eyebrow } from './primitives'
 
 export function Services() {
   return (

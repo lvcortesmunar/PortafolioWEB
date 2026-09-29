@@ -1,4 +1,4 @@
-import { timeline } from '@/lib/content'
+{/*timeline } from '@/lib/content'*/}
 import { DisplayHeading, Dot, Eyebrow } from './primitives'
 
 export function Timeline() {
