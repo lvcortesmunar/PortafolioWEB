@@ -10,10 +10,11 @@ export function Contact() {
         <div className="mt-10 grid gap-14 md:grid-cols-12 md:gap-8">
           <div className="md:col-span-8">
             <Eyebrow className="text-ink-foreground/60">Disponible para proyectos de diseño — 2026</Eyebrow>
-            <DisplayHeading className="mt-6 text-[clamp(3rem,8.5vw,7.5rem)]">
-              ¿Tienes un proyecto en mente? Hablemos
-              <Dot color="lime" />
-            </DisplayHeading>
+            <DisplayHeading className="mt-6 font-sans text-2xl font-black uppercase leading-none tracking-[-0.02em] md:text-4xl">
+  ¿Tienes un proyecto en mente? Hablemos
+  <Dot color="lime" />
+</DisplayHeading>
+
             <a
               href={`mailto:${profile.email}`}
               className="mt-10 inline-flex items-center gap-2 bg-lime px-5 py-3 font-mono text-xs uppercase tracking-[0.14em] text-accent-foreground transition-opacity hover:opacity-90"
