@@ -14,9 +14,9 @@ export default function Page() {
       <main>
         <Hero />
         <Marquee />
-        <About />
         <Projects />
         <Services />
+        <About />
         <Timeline />
         <Contact />
       </main>
