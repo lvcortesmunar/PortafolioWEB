@@ -4,7 +4,7 @@ import { Marquee } from '@/components/portfolio/marquee'
 import { About } from '@/components/portfolio/about'
 import { Projects } from '@/components/portfolio/projects'
 import { Services } from '@/components/portfolio/services'
-import { Timeline } from '@/components/portfolio/timeline'
+{/*import { Timeline } from '@/components/portfolio/timeline'*/}
 import { Contact, SiteFooter } from '@/components/portfolio/contact'
 
 export default function Page() {
