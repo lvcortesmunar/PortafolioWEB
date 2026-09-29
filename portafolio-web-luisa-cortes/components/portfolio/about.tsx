@@ -37,6 +37,7 @@ export function About() {
           </p>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
            Esta combinación me permite mirar los proyectos desde diferentes perspectivas: 
+           <br />
              <span className="font-bold underline decoration-mint decoration-2 underline-offset-4">
   la experiencia de las personas, las necesidades del negocio y las posibilidades de la tecnología.
 </span>
