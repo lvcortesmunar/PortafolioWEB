@@ -7,8 +7,8 @@ export function Hero() {
   return (
     <section id="inicio" className="mx-auto max-w-7xl px-5 md:px-8">
       <div className="flex flex-col gap-2 border-b border-border py-4 md:flex-row md:items-center md:justify-between">
-        <Eyebrow>Portafolio — Vol. 04 · MMXXVI</Eyebrow>
-        <Eyebrow className="hidden md:block">Disponible para proyectos — Q4 2026</Eyebrow>
+        <Eyebrow>Portafolio</Eyebrow>
+        <Eyebrow className="hidden md:block">Obsesionada con el UX</Eyebrow>
         <Eyebrow>{profile.location}</Eyebrow>
       </div>
 
@@ -24,6 +24,7 @@ export function Hero() {
           </DisplayHeading>
           <p className="mt-8 max-w-md text-pretty leading-relaxed text-foreground/80">
             Diseño productos digitales que conectan{' '}
+            <br />
             <span className="font-bold underline decoration-mint decoration-2 underline-offset-4">
              personas, negocio y tecnología.
              </span>
