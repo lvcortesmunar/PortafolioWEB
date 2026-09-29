@@ -13,10 +13,10 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
+        <About />
         <Marquee />
         <Projects />
         <Services />
-        <About />
         <Timeline />
         <Contact />
       </main>
