@@ -41,6 +41,7 @@ export function About() {
              <span className="font-bold underline decoration-mint decoration-2 underline-offset-4">
   la experiencia de las personas, las necesidades del negocio y las posibilidades de la tecnología.
 </span>
+<br />
 Actualmente estoy construyendo mi carrera en Product Design, buscando oportunidades donde pueda seguir 
 aprendiendo, asumir nuevos retos y aportar desde una mirada multidisciplinaria.
 Me interesa especialmente trabajar en productos digitales donde el diseño tenga un impacto real en la experiencia de las personas y en los resultados del negocio.
