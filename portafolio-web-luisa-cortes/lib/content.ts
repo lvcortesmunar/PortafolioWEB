@@ -56,76 +56,62 @@ export type Project = {
 }
 
 export const projects: Project[] = [
-  {
-    slug: 'banca-digital',
-    title: 'Banca Digital',
-    sector: 'Fintech · Móvil',
-    year: '2025',
-    image: '/images/proyecto-fintech.png',
-    alt: 'Mano sosteniendo un teléfono con una app bancaria junto a un datáfono',
-    problem:
-      'Los usuarios abandonaban el registro por un proceso de verificación de identidad fragmentado en varias pantallas.',
-    solution:
-      'Un onboarding conversacional con revelación progresiva, validación en tiempo real y ayuda contextual.',
-    impact: ['+34% registros completados', '-40% tickets de soporte', 'NPS 68'],
-    stack: ['Figma', 'Maze', 'Jira'],
-  },
-  {
-    slug: 'plataforma-salud',
-    title: 'Plataforma Salud',
-    sector: 'Salud · Web',
-    year: '2024',
-    image: '/images/proyecto-salud.png',
-    alt: 'Manos escribiendo en un portátil junto a un estetoscopio',
-    problem:
-      'El personal clínico perdía tiempo navegando entre sistemas desconectados para consultar historias de pacientes.',
-    solution:
-      'Una vista unificada del paciente con acciones contextuales, co-diseñada con el equipo de enfermería.',
-    impact: ['-25% tiempo por consulta', '4,6/5 satisfacción', '12 sedes'],
-    stack: ['Figma', 'FigJam', 'Notion'],
-  },
-  {
-    slug: 'gestor-low-code',
-    title: 'Gestor Low-Code',
-    sector: 'Herramientas internas',
-    year: '2024',
-    image: '/images/proyecto-lowcode.png',
-    alt: 'Mano bocetando wireframes de interfaz sobre papel',
-    problem:
-      'Los equipos de operación dependían de TI para cada cambio en sus flujos de aprobación.',
-    solution:
-      'Un constructor de flujos Low-Code con plantillas, versionado y un modo de presentación para comités.',
-    impact: ['80+ equipos', '3x entregas más rápidas', 'Adopción del 92%'],
-    stack: ['Figma', 'Power Apps', 'Miro'],
-  },
-  {
-    slug: 'diseno-de-servicios',
-    title: 'Servicio Ciudadano',
-    sector: 'Diseño de servicios',
-    year: '2023',
-    image: '/images/proyecto-servicios.png',
-    alt: 'Mesa de taller con mapa de viaje del usuario, notas adhesivas y portátil',
-    problem:
-      'Los trámites presenciales generaban filas extensas y una percepción negativa del servicio.',
-    solution:
-      'Rediseño del servicio de punta a punta con blueprint, canales digitales y protocolos de atención.',
-    impact: ['-45% tiempos de espera', '+30% trámites en línea', 'Premio innovación'],
-    stack: ['Miro', 'Figma', 'Typeform'],
-  },
-  {
-    slug: 'comercio-digital',
-    title: 'Comercio Digital',
-    sector: 'E-commerce · Marketing',
-    year: '2023',
-    image: '/images/proyecto-marketing.png',
-    alt: 'Persona con bolsas de compra y un teléfono con una tienda en línea',
-    problem:
-      'Una marca de moda necesitaba un checkout que se sintiera cuidado, no solo transaccional.',
-    solution:
-      'Páginas de producto editoriales, checkout en una sola pantalla y campañas integradas con marketing.',
-    impact: ['+22% ticket promedio', '-18% abandono', '3 mercados'],
-    stack: ['Figma', 'Shopify', 'Hotjar'],
-  },
+ {
+  slug: 'ikea-lifecycle',
+  title: 'IKEA LifeCycle',
+  sector: 'Product Design · Service Design · Strategy',
+  year: '2025',
+  image: '/images/ikea-lifecycle.png',
+  alt: 'Ecosistema conceptual de IKEA LifeCycle que conecta personas, muebles, servicios, tiendas y experiencias digitales',
+  problem:
+    'La relación entre una persona y un mueble no termina con la compra, pero las necesidades de mantenimiento, reparación, renovación, reutilización o reemplazo pueden quedar desconectadas de la experiencia con la marca.',
+  solution:
+    'Un ecosistema de servicio que conecta producto, plataforma digital, tienda y servicios físicos para acompañar al usuario durante diferentes etapas del ciclo de vida del mueble.',
+  impact: ['Service ecosystem definido', 'Service Blueprint desarrollado', 'Experiencia omnicanal conceptual'],
+  stack: ['Figma', 'FigJam', 'UX Research', 'Service Design'],
+},
+{
+  slug: 'spotify-mixer',
+  title: 'Spotify Mixer',
+  sector: 'Product Design · UX/UI · Interaction',
+  year: '2025',
+  image: '/images/spotify-mixer.png',
+  alt: 'Interfaz conceptual de Spotify Mixer para crear y personalizar experiencias musicales',
+  problem:
+    'Los usuarios necesitan una forma más flexible y personal de explorar y combinar música según sus gustos, contexto y estado de ánimo.',
+  solution:
+    'Una experiencia interactiva que permite combinar preferencias musicales y descubrir nuevas posibilidades a través de una interacción flexible y personalizada.',
+  impact: ['Experiencia de mezcla musical conceptual', 'Flujo de interacción definido', 'Prototipo de alta fidelidad'],
+  stack: ['Figma', 'FigJam', 'Prototyping', 'UX/UI Design'],
+},
+{
+  slug: 'whisky-coffee-neat',
+  title: 'Whisky & Coffee Neat',
+  sector: 'Product Design · UX/UI · Research · Strategy',
+  year: '2025',
+  image: '/images/whisky-coffee-neat.png',
+  alt: 'Experiencia digital de Whisky & Coffee Neat para explorar, aprender y descubrir productos y experiencias de café y whisky',
+  problem:
+    'Para quienes se acercan por primera vez al café o al whisky, la información, los productos y las experiencias suelen estar fragmentados, dificultando saber por dónde empezar y cómo avanzar según sus intereses y nivel de conocimiento.',
+  solution:
+    'Una experiencia digital que conecta educación, experiencias y comercio dentro de un mismo recorrido, guiando al usuario desde la curiosidad y el aprendizaje hasta el descubrimiento de productos y experiencias relevantes.',
+  impact: ['Experiencia digital conceptual', 'Ecosistema de educación, experiencias y comercio', 'Recorrido de descubrimiento definido'],
+  stack: ['Figma', 'FigJam', 'UX Research', 'Prototyping'],
+},
+{
+  slug: 'religion-club',
+  title: 'RELIGIÓN CLUB',
+  sector: 'Conceptual Project · Worldbuilding · Art Direction',
+  year: '2025',
+  image: '/images/religion-club.png',
+  alt: 'Escena conceptual de RELIGIÓN CLUB, un universo nocturno donde coexisten entidades de diferentes tradiciones mitológicas y religiosas',
+  problem:
+    '¿Cómo pueden coexistir diferentes religiones, mitologías y leyendas dentro de un mismo universo ficticio sin convertir una tradición en la verdad central?',
+  solution:
+    'Un universo narrativo construido alrededor de un club fuera del tiempo y el espacio, con reglas que definen la existencia de las entidades, sus relaciones con la humanidad y lo que ocurre cuando una historia cambia, es recordada o cae en el olvido.',
+  impact: ['Universo narrativo definido', '10 episodios conceptuales', 'Sistema de worldbuilding establecido'],
+  stack: ['Research', 'Worldbuilding', 'Narrative Design', 'Art Direction'],
+},
 ]
 
 export const services = [
