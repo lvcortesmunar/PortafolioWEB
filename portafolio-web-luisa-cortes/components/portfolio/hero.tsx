@@ -8,7 +8,7 @@ export function Hero() {
     <section id="inicio" className="mx-auto max-w-7xl px-5 md:px-8">
       <div className="flex flex-col gap-2 border-b border-border py-4 md:flex-row md:items-center md:justify-between">
         <Eyebrow>Portafolio</Eyebrow>
-        <Eyebrow className="hidden md:block">Obsesionada con el UX</Eyebrow>
+        <Eyebrow className="hidden md:block">Obsesionada con el diseño UX</Eyebrow>
         <Eyebrow>{profile.location}</Eyebrow>
       </div>
 
@@ -69,13 +69,6 @@ export function Hero() {
         </figure>
       </div>
 
-      <div className="flex items-center justify-between border-t border-border py-4">
-        <Eyebrow className="flex items-center gap-2">
-          <ArrowDown className="size-3" aria-hidden="true" />
-          Desliza para explorar
-        </Eyebrow>
-        <Eyebrow>P 01 / 06</Eyebrow>
-      </div>
     </section>
   )
 }
