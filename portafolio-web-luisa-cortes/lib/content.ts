@@ -60,7 +60,7 @@ export const projects: Project[] = [
   slug: 'ikea-lifecycle',
   title: 'IKEA LifeCycle',
   sector: 'Product Design · Service Design · Strategy',
-  year: '2025',
+  year: '2026',
   image: '/images/ikea-lifecycle.png',
   alt: 'Ecosistema conceptual de IKEA LifeCycle que conecta personas, muebles, servicios, tiendas y experiencias digitales',
   problem:
@@ -74,7 +74,7 @@ export const projects: Project[] = [
   slug: 'spotify-mixer',
   title: 'Spotify Mixer',
   sector: 'Product Design · UX/UI · Interaction',
-  year: '2025',
+  year: '2026',
   image: '/images/spotify-mixer.png',
   alt: 'Interfaz conceptual de Spotify Mixer para crear y personalizar experiencias musicales',
   problem:
