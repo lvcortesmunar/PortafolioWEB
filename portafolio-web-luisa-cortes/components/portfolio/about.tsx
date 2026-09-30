@@ -9,9 +9,7 @@ export function About() {
         <div className="md:col-span-5">
           <Eyebrow>Un perfil de diseño, producto y ejecución.</Eyebrow>
           <DisplayHeading className="mt-4 text-[clamp(3.5rem,8vw,6.5rem)]">
-            Sobre
-            <br />
-            mí<Dot color="mint" />
+            Sobre  mí<Dot color="mint" />
           </DisplayHeading>
           <div className="relative mt-10 mr-6 max-w-sm">
             <div aria-hidden="true" className="absolute -bottom-5 -left-5 top-1/2 right-10 bg-mint" />
