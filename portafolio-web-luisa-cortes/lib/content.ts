@@ -19,9 +19,12 @@ export const marqueeItems = [
   'UX Research',
   'Diseño de Servicios',
   'Prototipado',
+  'UX Design',
   'Gestión Ágil',
   'UI Systems',
   'Low-Code',
+  'A/B Testing',
+  'Scrum / Kanban',
 ]
 
 export const skills = [
