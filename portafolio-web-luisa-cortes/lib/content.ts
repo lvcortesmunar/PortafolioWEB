@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Luisa Vivianne Cortes Munar',
-  shortName: 'LV.CORTES',
+  shortName: 'LV.CORTESMUNAR',
   handle: 'lv.cortesmunar',
   role: 'Product Designer · UX/UI',
   email: 'lv.cortesmunar@gmail.com',
