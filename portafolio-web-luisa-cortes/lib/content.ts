@@ -4,7 +4,7 @@ export const profile = {
   handle: 'lv.cortesmunar',
   role: 'Product Designer · UX/UI',
   email: 'lv.cortesmunar@gmail.com',
-  location: 'Bogotá, Colombia · Remoto',
+  location: 'Colombia · Remoto',
 }
 
 export const navLinks = [
@@ -60,7 +60,7 @@ export const projects: Project[] = [
   slug: 'ikea-lifecycle',
   title: 'IKEA LifeCycle',
   sector: 'Product Design · Service Design · Strategy',
-  year: '2026',
+  year: 'Julio 2026',
   image: '/images/ikea-lifecycle.png',
   alt: 'Ecosistema conceptual de IKEA LifeCycle que conecta personas, muebles, servicios, tiendas y experiencias digitales',
   problem:
@@ -74,7 +74,7 @@ export const projects: Project[] = [
   slug: 'spotify-mixer',
   title: 'Spotify Mixer',
   sector: 'Product Design · UX/UI · Interaction',
-  year: '2026',
+  year: 'Febrero 2026',
   image: '/images/spotify-mixer.png',
   alt: 'Interfaz conceptual de Spotify Mixer para crear y personalizar experiencias musicales',
   problem:
@@ -88,7 +88,7 @@ export const projects: Project[] = [
   slug: 'whisky-coffee-neat',
   title: 'Whisky & Coffee Neat',
   sector: 'Product Design · UX/UI · Research · Strategy',
-  year: '2025',
+  year: 'Noviembre 2025',
   image: '/images/whisky-coffee-neat.png',
   alt: 'Experiencia digital de Whisky & Coffee Neat para explorar, aprender y descubrir productos y experiencias de café y whisky',
   problem:
@@ -102,7 +102,7 @@ export const projects: Project[] = [
   slug: 'religion-club',
   title: 'RELIGIÓN CLUB',
   sector: 'Conceptual Project · Worldbuilding · Art Direction',
-  year: '2025',
+  year: 'Agosto 2025',
   image: '/images/religion-club.png',
   alt: 'Escena conceptual de RELIGIÓN CLUB, un universo nocturno donde coexisten entidades de diferentes tradiciones mitológicas y religiosas',
   problem:
